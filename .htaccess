@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^view-([0-9]+)\.html?$ view.php?id=$1
+RewriteRule ^cat-([0-9]+)\.html?$ cat.php?id=$1
+RewriteRule ^cat-([0-9]+)-([0-9]+)\.html?$ cat.php?id=$1&page=$2
+RewriteRule ^([a-z]+)\.html?$ $1.php

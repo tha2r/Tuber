@@ -1,0 +1,134 @@
+/*==========================================================================*/
+/*|| #################################################################### ||*/
+/*|| #                     Arbb 1.0.0 (beta 1)                          # ||*/
+/*|| #              Default Admin Control panel style Css file          # ||*/
+/*|| #                       By ArBB Team - Thaer                       # ||*/
+/*|| #################################################################### ||*/
+/*==========================================================================*/
+
+/* Body Settings .. All page */
+body
+{
+
+        background: #efefef;
+        color: #000000;
+        font-family: Verdana;
+        font: bold 10px ms sans serif,arial;
+        scrollbar-base-color: #efefef;
+        scrollbar-arrow-color: #000000;
+        scrollbar-track-color: #FAFAFA;
+}
+
+a
+{
+        color: #026CB1;
+        text-decoration: none;
+}a:link {
+        color: #026CB1;
+        text-decoration: none;
+}
+a:visited {
+        color: #026CB1;
+        text-decoration: none;
+}
+a:hover, a:active {
+        color: #000000;
+        text-decoration: underline;
+}
+
+
+.table_border
+{
+        background: #e2e1ea;
+        color: #000000;
+        border: 1px solid #6581c1;
+}
+.tcat
+{
+        background: #5672b2 url('default/cat.gif') repeat-x top left;
+        color: #FFFFFF;
+        font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:ms sans serif, arial
+}
+.tcat a:link, .tcat_alink
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+        color: #F0f0f0;
+        text-decoration: none;
+}
+.thead
+{
+                border:0px none;
+        background: #b7ccfc url('default/head.gif') repeat-x top left;
+        color: #FFFFFF;
+        font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:ms sans serif, arial
+}.thead a:link
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.thead a:visited
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.thead a:hover, .thead a:active
+{
+        color: #000000;
+        text-decoration: none;
+}
+.smallfont
+{
+        font: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tdf
+{
+        color: #4D528C;
+        font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:ms sans serif, arial
+
+}
+
+.td1
+{
+        background: #FAFAFA;
+        color: #4D528C;
+        border-left: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:ms sans serif, arial
+
+}
+
+.td2
+{
+        background: #F5F5FF;
+        color: #4D528C;
+        border-left: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        font-style:normal; font-variant:normal; font-weight:bold; font-size:12px; font-family:ms sans serif, arial
+
+}
+.select
+{
+        background: #F5F5FF;
+        color: #4D528C;
+}
+input, select, textarea, option, optgroup
+{
+        font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+input, textarea, select
+{
+border-top-width : 1px;
+border-right-width : 1px;
+border-bottom-width : 1px;
+border-left-width : 1px;
+}
+input { text-indent : 2px; }

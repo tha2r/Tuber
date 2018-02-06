@@ -1,0 +1,1 @@
+<td class="tcat"><a href="view-$m[id].html">$m[title]</a> - έν - <a href="cat-$m[cat_id].html">$m[ctitle]</a></td>
